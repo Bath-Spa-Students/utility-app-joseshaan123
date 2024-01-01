@@ -36,7 +36,7 @@ AND DRINKS TO YOUR LIKING""")
 | 02 | Kurkure Large                    |       5.00        |       10       |
 | 03 | Bugles Small                     |       1.50        |       10       |
 | 04 | Bugles Large                     |       4.50        |       10       |
-| 05 | Lays Maxx Chicago Hot Wings Small|       3.50        |       10       |  
+| 05 | Lays Maxx Large                  |       5.00        |       10       |  
 +----------------------------------------------------------------------------+
 |                                    DRINKS                                  |
 +----------------------------------------------------------------------------+
@@ -46,7 +46,7 @@ AND DRINKS TO YOUR LIKING""")
 | 07 | Al Rawabi Strawberry Milk        |      2.00       |       10         |
 | 08 | Sunfeat Dark Fantasy Chocolate   |      1.50       |       10         |
 | 09 | Sunfeast Dark Fantasy Strawberry |      4.50       |       10         |
-| 10 | Laban Up                         |      3.50       |       10         | 
+| 10 | Laban Up                         |      1.00       |       10         | 
 +----------------------------------------------------------------------------+""") 
 #Making it in loop so users can use multiple times.
 while True:
@@ -103,14 +103,14 @@ while True:
     else:
       print("Wrong Code")
 #The preffered item and the rate is shown after the user inputs the preffered item code.
-   print("You have chosen "+current_drink["Drink"]+".The prize is $:"+current_drink["RATE"])
+   print("You have chosen "+current_drink["Drink"]+".The prize is $"+current_drink["RATE"])
    on_the_market= current_drink["On the Market"]
    while True:
     print("The stock available for "+current_drink["Drink"]+" is "+str(current_drink["On the Market"]))
 #The user can input how much of the preffered drink the user wants.
 #If the user inputs more than the available stock on the market.
 # it shows that its out of stock.
-    user_quantity= int(input("How many of"+current_drink["Drink"]+"Do you want?:"))
+    user_quantity= int(input("How many of "+current_drink["Drink"]+" Do you want?:"))
     if on_the_market - user_quantity>=0:
      current_drink["On the Market"] -= user_quantity
 #The total amount of the price of the drink is multiplied 
@@ -129,5 +129,6 @@ while True:
        break
       else:
          print("Sorry!You have entered the wrong amount.Please enter the correct amount.")
+
 
 
