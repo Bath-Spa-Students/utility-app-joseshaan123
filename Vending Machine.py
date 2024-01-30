@@ -32,20 +32,20 @@ AND DRINKS TO YOUR LIKING""")
 +----------------------------------------------------------------------------+
 |Code|            ITEMS                 |       PRICE       |  ON THE MARKET |
 +----------------------------------------------------------------------------+
-| 01 | Kurkure Small                    |       2.00        |       10       | 
-| 02 | Kurkure Large                    |       5.00        |       10       |
-| 03 | Bugles Small                     |       1.50        |       10       |
-| 04 | Bugles Large                     |       4.50        |       10       |
-| 05 | Lays Maxx Large                  |       5.00        |       10       |  
+|  1 | Kurkure Small                    |       2.00        |       10       | 
+|  2 | Kurkure Large                    |       5.00        |       10       |
+|  3 | Bugles Small                     |       1.50        |       10       |
+|  4 | Bugles Large                     |       4.50        |       10       |
+|  5 | Lays Maxx Large                  |       5.00        |       10       |  
 +----------------------------------------------------------------------------+
 |                                    DRINKS                                  |
 +----------------------------------------------------------------------------+
 |Code|              ITEMS               |      PRICE      |  ON THE MARKET   |
 +----------------------------------------------------------------------------+
-| 06 | Al Rawabi Chocolate Milk         |      2.00       |       10         |
-| 07 | Al Rawabi Strawberry Milk        |      2.00       |       10         |
-| 08 | Sunfeat Dark Fantasy Chocolate   |      1.50       |       10         |
-| 09 | Sunfeast Dark Fantasy Strawberry |      4.50       |       10         |
+|  6 | Al Rawabi Chocolate Milk         |      2.00       |       10         |
+|  7 | Al Rawabi Strawberry Milk        |      2.00       |       10         |
+|  8 | Sunfeat Dark Fantasy Chocolate   |      1.50       |       10         |
+|  9 | Sunfeast Dark Fantasy Strawberry |      4.50       |       10         |
 | 10 | Laban Up                         |      1.00       |       10         | 
 +----------------------------------------------------------------------------+""") 
 #Making it in loop so users can use multiple times.
